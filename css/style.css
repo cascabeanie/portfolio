@@ -59,7 +59,7 @@ a {
 
 .outer-grid {
   display: grid;
-  height: 100vh;
+  height: 100svh;
   grid-template-rows: 70px 1fr;
   grid-template-columns: 1fr 90px;
   grid-template-areas:
@@ -261,7 +261,7 @@ header {
 
 main {
   display: grid;
-  grid-template-rows: repeat(3, minmax(100vh, auto));
+  grid-template-rows: repeat(3, minmax(100svh, auto));
   grid-template-columns: 1fr;
   grid-template-areas:
     "alias-hero-section"
